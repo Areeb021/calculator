@@ -38,3 +38,23 @@ function displayAns() {
     }
     
 }
+var toggle=document.querySelector(".fas")
+var calc=document.querySelector(".calculator")
+
+console.log(toggle);
+function swh(){
+    if(document.body.style.backgroundColor != "white"){
+    document.body.style.backgroundColor = "white";
+    toggle.style.color="black"
+    calc.style.backgroundColor="black"
+ 
+    }
+    else{
+          document.body.style.backgroundColor = "black"
+          toggle.style.color="white"
+          calc.style.backgroundColor="white"
+          
+    }
+
+}
+toggle.addEventListener("click",swh);

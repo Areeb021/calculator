@@ -10,7 +10,7 @@ body {
 
 .calculator {
     width: 280px;
-    background: hsl(0, 100%, 100%);
+    background-color: hsl(0, 100%, 100%);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
@@ -75,4 +75,11 @@ button:hover {
 
 #equals:hover {
     background: darkgreen;
+}
+i{
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    top: 10%;
+    right: 10%;
 }
